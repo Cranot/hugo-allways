@@ -1,12 +1,108 @@
-baseURL = "https://example.org"
+baseurl = "https://allwaysto.study/"
+title = "Discover all the ways to study"
+logo = "/logo.png"
 
-disableKinds = ["page", "section", "taxonomy", "term"]
+copyright = "Copyright © 2020, Cosmohac Project, all rights reserved."
+disablefastrender = false
+disablelivereload = false
+enableRobotsTXT = true
+canonifyURLs = true
+googleAnalytics = "UA-170998803-1"
 
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.75.0"
+[sitemap]
+	changefreq = "weekly"
+	filename = "sitemap.xml"
+	priority = 0.9
 
-[build]
-# Used by PurgeCSS
-writeStats = true
+[taxonomies]
+	category = "categories"
+	ptag = "programming"
+	developer = "developers"
+	author = "authors"
+
+[params]
+	appname = "All ways to study"
+	sitename = "All Ways to Study"
+	languageCode = "en"
+	description = "Hacking the learning process to learn easier and efficiently any new skill, featuring programming languages from beginner to professional expert."
+	keywords = ["all ways to study", "all ways to learn", "learn efficiently","learn faster"]
+	author = "All Ways to Study Team"
+	home_page = false
+	post_page = false
+
+[menu]
+	[[menu.main]]
+		identifier = "home"
+		name = "Home"
+		pre = ""
+		url = "/"
+		weight = 1
+	[[menu.main]]
+		name = "Programming"
+		identifier = "programming"
+		weight = 3
+		[[menu.main]]
+			parent = "programming"
+			name = "C"
+			url = "/programming-languages/all-ways-to-learn-c-pros-cons/"
+			weight = 1
+		[[menu.main]]
+			parent = "programming"
+			name = "C++"
+			url = "/programming-languages/all-ways-to-learn-cplusplus-pros-cons/"
+			weight = 2
+		[[menu.main]]
+			parent = "programming"
+			name = "C#"
+			url = "/programming-languages/all-ways-to-learn-csharp-pros-cons/"
+			weight = 3
+		[[menu.main]]
+			parent = "programming"
+			name = "Go(lang)"
+			url = "/programming-languages/all-ways-to-learn-go-pros-cons/"
+			weight = 4
+		[[menu.main]]
+			parent = "programming"
+			name = "Java"
+			url = "/programming-languages/all-ways-to-learn-java-pros-cons/"
+			weight = 5
+		[[menu.main]]
+			parent = "programming"
+			name = "Javascript"
+			url = "/programming-languages/all-ways-to-learn-javascript-pros-cons/"
+			weight = 6
+		[[menu.main]]
+			parent = "programming"
+			name = "Php"
+			url = "/programming-languages/all-ways-to-learn-php-pros-cons/"
+			weight = 7
+		[[menu.main]]
+			parent = "programming"
+			name = "Python"
+			url = "/programming-languages/all-ways-to-learn-python-pros-cons/"
+			weight = 8
+		[[menu.main]]
+			parent = "programming"
+			name = "R"
+			url = "/programming-languages/all-ways-to-learn-r-pros-cons/"
+			weight = 9
+		[[menu.main]]
+			parent = "programming"
+			name = "Ruby"
+			url = "/programming-languages/all-ways-to-learn-ruby-pros-cons/"
+			weight = 10
+		[[menu.main]]
+			parent = "programming"
+			name = "Visual Basic .NET"
+			url = "/programming-languages/all-ways-to-learn-visual-basic-pros-cons/"
+			weight = 11
+		[[menu.main]]
+			parent = "programming"
+			name = "TypeScript"
+			url = "/programming-languages/all-ways-to-learn-typescript-pros-cons/"
+			weight = 12
+		[[menu.main]]
+			parent = "programming"
+			name = "Shell"
+			url = "/programming-languages/all-ways-to-learn-shell-pros-cons/"
+			weight = 13

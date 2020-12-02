@@ -1,0 +1,27 @@
+<meta name="application-name" content="{{.Site.Params.appname}}">
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{.Title}}{{end}}">
+<meta itemprop="name" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{.Title}}{{end}}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{.Title}}{{end}}">
+<meta property="og:site_name" content="{{ .Site.Params.sitename }}">
+<meta name="twitter:card" content="summary_large_image">
+{{- $params := .Scratch.Get "params" -}}
+<meta name="description" content="{{ if eq .Kind "taxonomy" }}{{ .Title }} list of all pages{{else}}{{ with .Params.description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{end}}">
+<meta property="og:description" content="{{ if eq .Kind "taxonomy" }}{{ .Title }} list of all pages{{else}}{{ with .Params.description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{end}}">
+<meta name="twitter:description" content="{{ if eq .Kind "taxonomy" }}{{ .Title }} list of all pages{{else}}{{ with .Params.description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{end}}">
+<meta name="apple-mobile-web-app-title" content="{{ .Site.Params.app.title | default .Site.Title }}">
+<meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+{{- with .Site.Params.app.themeColor -}}<meta name="theme-color" content="{{ . }}">{{- end -}}
+{{- with .Site.Params.app.tileColor -}}<meta name="msapplication-TileColor" content="{{ . }}">{{- end -}}
+<meta name="url" content="{{ .Permalink }}">
+<meta name="twitter:url" content="{{ .Permalink }}"> 
+<meta property="og:url" content="{{ .Permalink }}">
+{{ if isset .Params "ogimage" }}
+<meta property="og:type" content="article">
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2020-01-01T13:14:37+00:00" }}">
+<meta property="og:image" content="{{ .Params.ogimage | absURL }}"> 
+<meta name="twitter:image" content="{{ .Params.ogimage | absURL }}">
+<meta name="twitter:image:src" content="{{ .Params.ogimage | absURL }}"> 
+{{else}}
+<meta property="og:type" content="website"> 
+{{end}}
