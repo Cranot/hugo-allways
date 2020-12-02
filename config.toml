@@ -9,6 +9,9 @@ enableRobotsTXT = true
 canonifyURLs = true
 googleAnalytics = "UA-170998803-1"
 
+[build]
+writeStats = true
+
 [sitemap]
 	changefreq = "weekly"
 	filename = "sitemap.xml"
