@@ -5,29 +5,19 @@
 @import "components/all.css";
 
 @layer components {
+	
+.herospan{ @apply rounded-lg text-white py-0 my-1 px-2 inline-block;}
 
-.way-h2 {
-	@apply my-2 text-2xl font-bold text-gray-800 w-auto border-solid border-b-2 border-blue-500 inline-block;
-}
+.way-h2 {@apply my-2 text-2xl font-bold text-gray-800 w-auto border-solid border-b-2 border-blue-500 inline-block;}
 
-.base-c-p {
-	@apply my-2 px-2 text-2xl font-bold text-gray-800 border-b-2 border-gray-500 inline-block;
-}
+.base-c-p {@apply my-2 px-2 text-2xl font-bold text-gray-800 border-b-2 border-gray-500 inline-block;}
 
-.con {
-  @apply bg-red-600;
-}
+.con {@apply bg-red-600;}
 
-.pro {
-  @apply bg-green-500;
-}
+.pro {@apply bg-green-500;}
 
-.pro-grid{
-  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2;
-}
+.pro-grid{@apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2;}
 
-.pro-grid h4{
-  @apply font-semibold;
-}
+.pro-grid h4{@apply font-semibold;}
 
 }
