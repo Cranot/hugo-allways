@@ -1,8 +1,7 @@
-<nav class="relative shadow text-gray-900" aria-label="main navigation">
-  <div class="container mx-auto flex justify-between">
+<nav class="relative shadow text-gray-900 text-center" aria-label="main navigation">
+  <div class="container mx-auto flex justify-between bg">
     <div class="relative block p-4 lg:p-6 text-xl text-blue-500 font-bold">All Ways to Study</div>
     <ul class="flex">
-	<!-- hover:bg-blue-800 hover:text-white -->
 	{{ $currentPage := . }}
         {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
