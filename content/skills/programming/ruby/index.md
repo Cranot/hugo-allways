@@ -1,10 +1,10 @@
 ---
-title: "All the ways to Learn Ruby Programming - Pros & Cons"
+title: "All the ways to Learn Ruby Programming"
 date: 2020-06-15T21:57:40+08:00
 lastmod: 2020-07-08T01:01:01+03:00
 programming: ["object-oriented", "functional", "reflective", "imperative"]
 categories: ["Programming Languages"]
-url: "/programming-languages/all-ways-to-learn-ruby-pros-cons/"
+url: "/programming-languages/all-ways-to-learn-ruby/"
 type: skills
 layout: programming
 name: "Ruby"

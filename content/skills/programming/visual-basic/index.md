@@ -1,10 +1,10 @@
 ---
-title: "All the ways to Learn Visual Basic .NET Programming - Pros & Cons"
+title: "All the ways to Learn Visual Basic .NET Programming"
 date: 2020-06-15T21:57:40+08:00
 lastmod: 2020-07-08T01:01:01+03:00
 programming: ["structured", "object-oriented", "event-driven", "declarative", "generic", "reflective", "imperative"]
 categories: ["Programming Languages"]
-url: "/programming-languages/all-ways-to-learn-visual-basic-pros-cons/"
+url: "/programming-languages/all-ways-to-learn-visual-basic/"
 type: skills
 layout: programming
 name: "Visual Basic"
