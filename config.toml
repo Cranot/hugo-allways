@@ -32,6 +32,8 @@ writeStats = true
 	author = "All Ways to Study Team"
 	home_page = false
 	post_page = false
+	themeColor = "ffffff"
+	tileColor = "ffc40d"
 
 [menu]
 	[[menu.main]]
