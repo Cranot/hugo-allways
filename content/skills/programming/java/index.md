@@ -1,7 +1,7 @@
 ---
 title: "All the ways to Learn Java Programming"
 date: 2020-06-15T21:57:40+08:00
-lastmod: 2020-07-08T01:01:01+03:00
+lastmod: 2020-07-08T01:01:01Z03:00
 programming: [ "object-oriented", "platform independent", "distributed", "generic", "reflective"]
 categories: ["Programming Languages"]
 url: "/programming-languages/all-ways-to-learn-java/"
