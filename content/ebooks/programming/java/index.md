@@ -5,7 +5,7 @@ lastmod: 2020-07-08T01:01:01+03:00
 categories: ["Programming Languages Ebooks"]
 url: "/programming-languages/java-ebooks/"
 type: ebooks
-layout: programming
+layout: programming-languages
 name: "Java"
 officialweb: "https://www.oracle.com/java/"
 wikilink: "https://en.wikipedia.org/wiki/Java_(programming_language)"

@@ -5,7 +5,7 @@ lastmod: 2020-07-08T01:01:01+03:00
 categories: ["Programming Languages Ebooks"]
 url: "/programming-languages/typescript-ebooks/"
 type: ebooks
-layout: programming
+layout: programming-languages
 name: "TypeScript"
 officialweb: "https://www.typescriptlang.org/"
 wikilink: "https://en.wikipedia.org/wiki/TypeScript"

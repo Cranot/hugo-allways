@@ -6,7 +6,7 @@ categories: ["Programming Languages Ebooks"]
 developers: ["Microsoft"]
 url: "/programming-languages/csharp-ebooks/"
 type: ebooks
-layout: programming
+layout: programming-languages
 name: "C#"
 officialweb: "https://docs.microsoft.com/en-us/dotnet/csharp/"
 wikilink: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"

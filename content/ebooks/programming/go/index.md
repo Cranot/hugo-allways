@@ -6,7 +6,7 @@ categories: ["Programming Languages Ebooks"]
 developers: ["Google"]
 url: "/programming-languages/go-ebooks/"
 type: ebooks
-layout: programming
+layout: programming-languages
 name: "Go"
 officialweb: "https://golang.org/"
 wikilink: "https://en.wikipedia.org/wiki/Go_(programming_language)"

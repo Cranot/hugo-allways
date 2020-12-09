@@ -6,7 +6,7 @@ categories: ["Programming Languages Ebooks"]
 developers: ["Microsoft"]
 url: "/programming-languages/shell-ebooks/"
 type: ebooks
-layout: programming
+layout: programming-languages
 name: "Shell"
 officialweb: "https://www.shellscript.sh/"
 wikilink: "https://en.wikipedia.org/wiki/Shell_script"

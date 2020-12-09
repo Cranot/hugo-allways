@@ -5,7 +5,7 @@ lastmod: 2020-07-08T01:01:01+03:00
 categories: ["Programming Languages Ebooks"]
 url: "/programming-languages/visual-basic-ebooks/"
 type: ebooks
-layout: programming
+layout: programming-languages
 name: "Visual Basic"
 officialweb: "https://docs.microsoft.com/en-us/dotnet/visual-basic/"
 wikilink: "https://en.wikipedia.org/wiki/Visual_Basic_.NET"
