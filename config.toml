@@ -47,65 +47,65 @@ writeStats = true
 		[[menu.main]]
 			parent = "programming"
 			name = "C"
-			url = "/programming-languages/all-ways-to-learn-c-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-c/"
 			weight = 1
 		[[menu.main]]
 			parent = "programming"
 			name = "C++"
-			url = "/programming-languages/all-ways-to-learn-cplusplus-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-cplusplus/"
 			weight = 2
 		[[menu.main]]
 			parent = "programming"
 			name = "C#"
-			url = "/programming-languages/all-ways-to-learn-csharp-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-csharp/"
 			weight = 3
 		[[menu.main]]
 			parent = "programming"
 			name = "Go"
-			url = "/programming-languages/all-ways-to-learn-go-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-go/"
 			weight = 4
 		[[menu.main]]
 			parent = "programming"
 			name = "Java"
-			url = "/programming-languages/all-ways-to-learn-java-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-java/"
 			weight = 5
 		[[menu.main]]
 			parent = "programming"
 			name = "Javascript"
-			url = "/programming-languages/all-ways-to-learn-javascript-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-javascript/"
 			weight = 6
 		[[menu.main]]
 			parent = "programming"
 			name = "Php"
-			url = "/programming-languages/all-ways-to-learn-php-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-php/"
 			weight = 7
 		[[menu.main]]
 			parent = "programming"
 			name = "Python"
-			url = "/programming-languages/all-ways-to-learn-python-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-python/"
 			weight = 8
 		[[menu.main]]
 			parent = "programming"
 			name = "R"
-			url = "/programming-languages/all-ways-to-learn-r-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-r/"
 			weight = 9
 		[[menu.main]]
 			parent = "programming"
 			name = "Ruby"
-			url = "/programming-languages/all-ways-to-learn-ruby-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-ruby/"
 			weight = 10
 		[[menu.main]]
 			parent = "programming"
 			name = "Visual Basic .NET"
-			url = "/programming-languages/all-ways-to-learn-visual-basic-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-visual-basic/"
 			weight = 11
 		[[menu.main]]
 			parent = "programming"
 			name = "TypeScript"
-			url = "/programming-languages/all-ways-to-learn-typescript-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-typescript/"
 			weight = 12
 		[[menu.main]]
 			parent = "programming"
 			name = "Shell"
-			url = "/programming-languages/all-ways-to-learn-shell-pros-cons/"
+			url = "/programming-languages/all-ways-to-learn-shell/"
 			weight = 13
