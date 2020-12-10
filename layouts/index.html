@@ -74,8 +74,8 @@
 	<h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Programming Languages</h2>
 	<p class="text-center">Learn all the ways, to learn programming.</p>
 	<div class="container mx-auto grid grid-cols-1 text-center py-8">
-	{{ range $key, $taxonomy := .Site.Taxonomies.categories }}{{ range $taxonomy.Pages }}
-		<a class="font-bold text-l py-2 my-1 text-gray-800" href="{{ .Permalink}}" title="{{ .Title }}">Learn {{ .Params.name }} Programming</a>
+	{{ range $key, $taxonomy := .Site.Taxonomies.categories }}{{ range where $taxonomy.Pages "Type" "skills" }}
+			<a class="font-bold text-l py-2 my-1 text-gray-800" href="{{ .Permalink}}" title="{{ .Title }}">Learn {{ .Params.name }} Programming</a>
 	{{ end }}{{ end }}
 	</div>
 </div>
