@@ -11,7 +11,7 @@ officialweb: "https://www.python.org/"
 wikilink: "https://en.wikipedia.org/wiki/Python_(programming_language)"
 developers: ["Python Software Foundation"]
 gitrank: 2
-description: "Hack the learning process and discover the ways to learn Python programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning Python programming, download and read your ebooks for Python on any device, free & paid versions are both available."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-python.png"
 authors: ["All Ways to Study Team"]
 

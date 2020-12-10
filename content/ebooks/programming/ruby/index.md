@@ -11,7 +11,7 @@ developers: ["Yukihiro Matsumoto"]
 officialweb: "https://www.ruby-lang.org/en/"
 wikilink: "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
 gitrank: 10
-description: "Hack the learning process and discover the ways to learn Ruby programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning Ruby programming, download and read your ebooks for Ruby on any device, free & paid versions are both available."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-shell.png"
 authors: ["All Ways to Study Team"]
 

@@ -10,7 +10,7 @@ name: "TypeScript"
 officialweb: "https://www.typescriptlang.org/"
 wikilink: "https://en.wikipedia.org/wiki/TypeScript"
 gitrank: 7
-description: "Hack the learning process and discover the ways to learn TypeScript programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning TypeScript programming, download and read your ebooks for TypeScript on any device, free & paid versions are both available."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-typescript.png"
 authors: ["All Ways to Study Team"]
 

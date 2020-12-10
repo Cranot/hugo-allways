@@ -11,7 +11,7 @@ officialweb: "https://www.oracle.com/java/"
 wikilink: "https://en.wikipedia.org/wiki/Java_(programming_language)"
 developers: ["Sun Microsystems"]
 gitrank: 3
-description: "Hack the learning process and discover the ways to learn Java programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning Java programming, download and read your ebooks for Java on any device, free & paid versions are both available."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-java.png"
 authors: ["All Ways to Study Team"]
 

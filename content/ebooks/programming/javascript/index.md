@@ -11,7 +11,7 @@ developers: ["Brendan Eich", "ECMAScript"]
 officialweb: "https://www.javascript.com/"
 wikilink: "https://en.wikipedia.org/wiki/JavaScript"
 gitrank: 1
-description: "Hack the learning process and discover the ways to learn JavaScript programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning JavaScript programming, download and read your ebooks for Javascript on any device, free & paid versions are both available."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-javascript.png"
 authors: ["All Ways to Study Team"]
 

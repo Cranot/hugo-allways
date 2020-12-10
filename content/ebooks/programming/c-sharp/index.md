@@ -11,7 +11,7 @@ name: "C#"
 officialweb: "https://docs.microsoft.com/en-us/dotnet/csharp/"
 wikilink: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
 gitrank: 5
-description: "Hack the learning process and discover the ways to learn C# programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning C# programming, download and read your ebooks for C# on any device, free & paid versions are both available."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-csharp.png"
 authors: ["All Ways to Study Team"]
 

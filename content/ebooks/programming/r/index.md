@@ -10,7 +10,7 @@ name: "R"
 wikilink: "https://en.wikipedia.org/wiki/R_(programming_language)"
 developers: ["R Core Team"]
 officialweb: "https://www.r-project.org/"
-description: "Hack the learning process and discover the ways to learn R programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning R programming, download and read your ebooks for R on any device, free & paid versions are both available."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-r.png"
 authors: ["All Ways to Study Team"]
 

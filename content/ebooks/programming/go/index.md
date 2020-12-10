@@ -10,7 +10,7 @@ layout: programming-languages
 name: "Go"
 officialweb: "https://golang.org/"
 wikilink: "https://en.wikipedia.org/wiki/Go_(programming_language)"
-description: "Hack the learning process and discover the ways to learn Go programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning Go programming, download and read your ebooks for Go on any device, free & paid versions are both available."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-go.png"
 authors: ["All Ways to Study Team"]
 

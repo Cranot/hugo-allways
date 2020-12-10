@@ -7,7 +7,7 @@ url: "/programming-languages/c-plus-plus-ebooks/"
 type: ebooks
 layout: programming-languages
 name: "C++"
-description: "Hack the learning process and discover the ways to learn C programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Ebooks are a great way to start learning C programming, download and read your ebooks for C++ on any device, free & paid versions are both available."
 authors: ["All Ways to Study Team"]
 
 ---
