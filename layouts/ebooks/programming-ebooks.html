@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="container p-2 pt-4 mx-auto">
+<header class="bg-white shadow overflow-hidden sm:rounded-lg">
+	<div class="px-4 py-5 sm:px-6">
+		<h1 class="text-2xl font-bold text-gray-900">{{ .Title }}</h1>
+		<p class="mt-1 max-w-2xl text-sm text-gray-900">{{ .Params.description }}</p>
+		{{- partial "programming/breadcrumb.html" . -}}
+	</div>	
+	{{- partial "programming/infobox.html" . -}}
+</header>
+<div class=""><h2 class="text-xl font-bold text-gray-900 mt-8">{{ .Params.name }} Ebooks on amazon</h2></div>
+<div class="grid  grid-flow-col mt-6 gap-2">
+	{{ range where .Site.Pages ".Params.proglanguagename" .Params.name }}
+	<div>
+		<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref={{ .Params.referal }}&ad_type=product_link&tracking_id=0101010202-20&marketplace=amazon&region=US&placement={{ .Params.bookid }}&asins={{ .Params.bookid }}&linkId={{ .Params.linkid }}&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
+	</div>
+{{ end }}
+</div>
+		
+	
+	{{ if .Site.Params.adheader }}
+	{{- partial "ads/google/header.html" . -}}
+	{{end}}
+  	
+</article>
+{{ end }}

@@ -9,6 +9,7 @@ url: "/programming-languages/all-ways-to-learn-csharp/"
 type: skills
 layout: programming
 name: "C#"
+progtype: "csharp"
 officialweb: "https://docs.microsoft.com/en-us/dotnet/csharp/"
 wikilink: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
 gitrank: 5

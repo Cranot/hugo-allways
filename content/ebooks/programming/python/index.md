@@ -5,7 +5,7 @@ lastmod: 2020-07-08T01:01:01+03:00
 categories: ["Programming Languages Ebooks"]
 url: "/programming-languages/python-ebooks/"
 type: ebooks
-layout: programming-languages
+layout: programming-ebooks
 name: "Python"
 officialweb: "https://www.python.org/"
 wikilink: "https://en.wikipedia.org/wiki/Python_(programming_language)"

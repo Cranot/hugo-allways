@@ -5,7 +5,7 @@ lastmod: 2020-07-08T01:01:01+03:00
 categories: ["Programming Languages Ebooks"]
 url: "/programming-languages/c-plus-plus-ebooks/"
 type: ebooks
-layout: programming-languages
+layout: programming-ebooks
 name: "C++"
 description: "Ebooks are a great way to start learning C programming, download and read your ebooks for C++ on any device, free & paid versions are both available."
 authors: ["All Ways to Study Team"]

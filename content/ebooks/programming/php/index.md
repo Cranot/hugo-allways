@@ -5,7 +5,7 @@ lastmod: 2020-07-08T01:01:01+03:00
 categories: ["Programming Languages Ebooks"]
 url: "/programming-languages/php-ebooks/"
 type: ebooks
-layout: programming-languages
+layout: programming-ebooks
 name: "PHP"
 officialweb: "https://www.php.net/"
 wikilink: "https://en.wikipedia.org/wiki/PHP"
