@@ -8,7 +8,8 @@
 	</div>	
 	{{- partial "programming/infobox.html" . -}}
 </header>
-<div class=""><h2 class="text-xl font-bold text-gray-900 mt-8">{{ .Params.name }} Ebooks on amazon</h2></div>
+<div><h2 class="text-xl font-bold text-gray-900 mt-8">{{ .Params.name }} Ebooks on amazon</h2></div>
+{{- partial "components/buying-tip-red.html" . -}}
 <div class="grid  grid-flow-col mt-6 gap-2">
 	{{ range where .Site.Pages ".Params.proglanguagename" .Params.name }}
 	<div>
