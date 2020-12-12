@@ -7,7 +7,7 @@ url: "/programming-languages/c-plus-plus-ebooks/"
 type: ebooks
 layout: programming-ebooks
 name: "C++"
-description: "Ebooks are a great way to start learning C programming, download and read your ebooks for C++ on any device, free & paid versions are both available."
+description: "Ebooks are a great way to start learning C++ programming, download and read your ebooks for C++ on any device, free & paid versions are both available."
 authors: ["All Ways to Study Team"]
 
 ---
