@@ -13,8 +13,11 @@
 	{{- partial "ads/google/header.html" . -}}
 	{{end}}
   	<section>
+	<h2 class="p-4 text-center text-2xl m-6 shadow">13 Different Ways to Learn {{ .Params.name }}</h2>
 	<h2 class="way-h2">01. eBook</h2>
 	<p>eBooks are a great way to start your programming experiense or expand it even more, a mobile and presice way to learn {{ .Params.name }} programming. There are available in both paid and free, you can find great ebooks for any level.</p>
+	{{- partial "components/buttons/ebook-1.html" . -}}
+
 	<div class="pro-grid gap-4">
 	<div class="column">
 		<h3 class="base-c-p pro">Pros</h3>

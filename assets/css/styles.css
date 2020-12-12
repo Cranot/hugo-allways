@@ -8,7 +8,7 @@
 	
 .herospan{ @apply rounded-lg text-white py-0 my-1 px-2 inline-block;}
 
-.way-h2 {@apply my-2 text-2xl font-bold text-gray-800 w-auto border-solid border-b-2 border-blue-500 inline-block;}
+.way-h2 {@apply mb-2 mt-12 text-2xl font-bold text-gray-800 w-auto border-solid border-b-2 border-blue-500 inline-block;}
 
 .base-c-p {@apply my-2 px-2 text-2xl font-bold text-gray-800 border-b-2 border-gray-500 inline-block;}
 
