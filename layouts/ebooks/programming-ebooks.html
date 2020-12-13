@@ -15,7 +15,7 @@
 <div class="grid grid-flow-col-dense sm:grid-rows-2 grid-rows-3 col-span-2 sm:col-span-3 mt-6 gap-2">
 	{{ range where .Site.Pages ".Params.proglanguagename" .Params.name }}
 	<div class="">
-		<iframe title="Amazon {{.Params.name }} ebook - {{ .Params.bookid }}"style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref={{ .Params.referal }}&ad_type=product_link&tracking_id=0101010202-20&marketplace=amazon&region=US&placement={{ .Params.bookid }}&asins={{ .Params.bookid }}&linkId={{ .Params.linkid }}&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
+		<iframe title="Amazon {{.Params.name }} ebook - {{ .Params.bookid }}" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref={{ .Params.referal }}&ad_type=product_link&tracking_id=0101010202-20&marketplace=amazon&region=US&placement={{ .Params.bookid }}&asins={{ .Params.bookid }}&linkId={{ .Params.linkid }}&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
 	</div>
 {{ end }}
 </div> 	
