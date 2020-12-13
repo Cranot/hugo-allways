@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "components/all.css";
-
 @layer components {
 	
 .herospan{ @apply rounded-lg text-white py-0 my-1 px-2 inline-block;}
