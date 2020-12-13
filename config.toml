@@ -64,7 +64,7 @@ writeStats = true
 			weight = 3
 		[[menu.main]]
 			parent = "programming"
-			name = "Go"
+			name = "Go (lang)"
 			url = "/programming-languages/all-ways-to-learn-go/"
 			weight = 4
 		[[menu.main]]
