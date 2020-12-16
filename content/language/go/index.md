@@ -5,7 +5,7 @@ lastmod: 2020-07-08T01:01:01+03:00
 categories: ["Programming Languages "]
 developers: ["Google"]
 url: "/programming-languages/go-ebooks/"
-type: ebooks
+
 layout: programming-ebooks
 name: "Go"
 officialweb: "https://golang.org/"
