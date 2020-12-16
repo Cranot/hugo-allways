@@ -35,6 +35,7 @@ writeStats = true
 	themeColor = "ffffff"
 	tileColor = "ffc40d"
 	adheader = true
+	adauto = true
 
 [menu]
 	[[menu.main]]
