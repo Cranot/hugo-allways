@@ -56,7 +56,7 @@ writeStats = true
 		[[menu.main]]
 			parent = "programming"
 			name = "C++"
-			url = "/programming-languages/all-ways-to-learn-cplusplus/"
+			url = "/programming-languages/all-ways-to-learn-c-plus-plus/"
 			weight = 2
 		[[menu.main]]
 			parent = "programming"
