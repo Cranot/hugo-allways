@@ -3,18 +3,23 @@
 		<div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
 			<dt class="text-sm font-medium text-gray-500">Language Developer</dt>
 			<dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+			{{ range where (where .Site.Pages ".Params.programminglanguage" true) ".Params.name" .Params.name }}
 				{{ range .Params.developers }}<span class="text-sm underline inline-block" title="{{.}}">{{.}}</span>{{ end }}
+			{{ end }}
 			</dd>
 		</div>
 		<div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
 			<dt class="text-sm font-medium text-gray-500">Programming Tags</dt>
 			<dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+			{{ range where (where .Site.Pages ".Params.programminglanguage" true) ".Params.name" .Params.name }}
 				{{ range .Params.programming }}<a class="bg-transparent mt-2 inline-block text-xs hover:bg-gray-500 text-gray-700 hover:text-white p-1 border border-gray-500 hover:border-transparent rounded" title="{{.}} Tag" href="/programming/{{ . | urlize}}">{{ . | title }}</a> {{ end }}
+			{{ end }}
 			</dd>
 		</div>
 		<!-- links -->
 		{{- partial "programming/main-links.html" . -}}
 		
+		{{ range where (where .Site.Pages ".Params.programminglanguage" true) ".Params.name" .Params.name }}
 		{{with .Params.gitrank}}
 		<div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
 			<dt class="text-sm font-medium text-gray-500">Language Popularity</dt>
@@ -23,5 +28,6 @@
 			</dd>
 		</div>
 		{{end}}
+		{{ end }}
 	</dl>
 </div>
