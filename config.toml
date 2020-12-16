@@ -34,7 +34,7 @@ writeStats = true
 	post_page = false
 	themeColor = "ffffff"
 	tileColor = "ffc40d"
-	adheader = true
+	adheader = false
 	adauto = false
 
 [menu]

@@ -18,6 +18,11 @@ command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 HUGO_VERSION = "0.75.1"
 
 [[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self';"
+
+[[headers]]
 for = "/*.jpg"
 
 [headers.values]
