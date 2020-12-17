@@ -20,7 +20,7 @@
         <div class="level-right is-hidden-touch">
             <div class="tags">
                 {{ range .Params.tags }}
-                <a class="tag is-dark is-rounded" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . | title }}</a>
+                <a class="tag is-dark is-rounded" href="{{ " /tags/" | relURL }}{{ . | urlize }}">{{ . | title }}</a>
                 {{ end }}
             </div>
         </div>
@@ -28,7 +28,7 @@
 
     <div class="tags is-hidden-desktop">
         {{ range .Params.tags }}
-        <a class="tag is-dark is-rounded" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . | humanize }}</a>
+        <a class="tag is-dark is-rounded" href="{{ " /tags/" | relURL }}{{ . | urlize }}">{{ . | humanize }}</a>
         {{ end }}
     </div>
 
@@ -41,5 +41,5 @@
 
         {{ .Content }}
     </div>
-</div>
-{{ end }}
+    </div>
+    {{ end }}

@@ -1,30 +1,37 @@
 <nav class="relative shadow-sm bg-gray-50" aria-label="main navigation">
-	<div class="container mx-auto flex justify-between items-center">
+	<div class="container flex items-center justify-between mx-auto">
 		<!-- Logo Small Icon -->
-		<a class="pl-2 inline-block" href="/" data-config-id="brand"><img class="object-contain" src="/img/logo-small.png" width="126" height="26" alt="All ways to study logo"></a>
+		<a class="inline-block pl-2" href="/" data-config-id="brand"><img class="object-contain"
+				src="/img/logo-small.png" width="126" height="26" alt="All ways to study logo"></a>
 		<!-- Menu Items -->
 		<ul class="flex">
-		{{ $currentPage := . }}
-		{{ range .Site.Menus.main }}
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
 			{{ if .HasChildren }}
 			<li class="toggleable">
 				<input type="checkbox" value="selected" id="toggle-one" class="toggle-input">
-				<label for="toggle-one" class="block cursor-pointer py-6 px-4 lg:p-6 text-sm lg:text-base font-semibold">{{ .Name }}</label>
-				<div role="toggle" class="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-400">
-					<div class="container mx-auto w-full flex flex-wrap justify-between mx-2">
-						<ul class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-300 border-b sm:border-r lg:border-b-0 pb-6 pt-6 lg:pt-3">
-							<li><span class="text-white font-semibold mb-4 block">Programming Languages</span></li>
+				<label for="toggle-one"
+					class="block px-4 py-6 text-sm font-semibold cursor-pointer lg:p-6 lg:text-base">{{ .Name }}</label>
+				<div role="toggle" class="p-6 mb-16 bg-blue-400 shadow-xl mega-menu sm:mb-0">
+					<div class="container flex flex-wrap justify-between w-full mx-2 mx-auto">
+						<ul
+							class="w-full px-4 pt-6 pb-6 border-b border-gray-300 sm:w-1/2 lg:w-1/4 sm:border-r lg:border-b-0 lg:pt-3">
+							<li><span class="block mb-4 font-semibold text-white">Programming Languages</span></li>
 							{{ range .Children }}
-								<li>{{ .Pre }}<a href="{{ .URL }}" title="All ways to learn {{.Name}} Programming" class="block p-3 hover:bg-blue-500 text-gray-100 hover:text-white">{{ .Name }}</a>{{ .Post }}</li>
+							<li>{{ .Pre }}<a href="{{ .URL }}" title="All ways to learn {{.Name}} Programming"
+									class="block p-3 text-gray-100 hover:bg-blue-500 hover:text-white">{{ .Name }}</a>{{
+								.Post }}</li>
 							{{ end }}
 						</ul>
 					</div>
 				</div>
 			</li>
 			{{ else }}
-				<li class="">{{ .Pre }}<a href="{{ .URL }}" title="{{.Name}}" class="relative block py-6 px-2 lg:p-6 text-sm lg:text-base font-semibold">{{ .Name }}</a>{{ .Post }}</li>
-            {{ end }}
-        {{ end }}
+			<li class="">{{ .Pre }}<a href="{{ .URL }}" title="{{.Name}}"
+					class="relative block px-2 py-6 text-sm font-semibold lg:p-6 lg:text-base">{{ .Name }}</a>{{ .Post
+				}}</li>
+			{{ end }}
+			{{ end }}
 		</ul>
 	</div>
 </nav>
