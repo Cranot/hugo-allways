@@ -4,8 +4,7 @@
 			<dt class="text-sm font-medium text-gray-500">Language Developer</dt>
 			<dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
 				{{ range where (where .Site.Pages ".Params.programminglanguage" true) ".Params.name" .Params.name }}
-				{{ range .Params.developers }}<span class="inline-block text-sm underline" title="{{.}}">{{.}}</span>{{
-				end }}
+				{{ range .Params.developers }}<span class="inline-block text-sm underline" title="{{.}}">{{.}}</span>{{ end }}
 				{{ end }}
 			</dd>
 		</div>

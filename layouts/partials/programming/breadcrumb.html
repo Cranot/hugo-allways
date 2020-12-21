@@ -10,8 +10,7 @@
 						clip-rule="evenodd" />
 				</svg>
 				{{ range .Params.categories }}
-				<a class="p-1 text-sm font-semibold underline hover:no-underline text-grey-900" href="{{ " /categories/"
-					| relURL }}{{ . | urlize }}">{{ . | title }}</a>
+				<a class="p-1 text-sm font-semibold underline hover:no-underline text-grey-900" href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . | title }}</a>
 				{{ end }}
 			</div>
 			<div class="flex items-center mt-2 text-sm text-gray-500">
@@ -24,8 +23,7 @@
 						d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
 				</svg>
 
-				{{ range .Param "authors" }}{{ $name := . }}{{ $path := printf "/%s/%s" "authors" ($name | urlize) }}{{
-				with $.Site.GetPage $path }}
+				{{ range .Param "authors" }}{{ $name := . }}{{ $path := printf "/%s/%s" "authors" ($name | urlize) }}{{ with $.Site.GetPage $path }}
 				<a class="p-1 text-sm font-semibold underline hover:no-underline text-grey-900" title="{{.Title}}"
 					href="{{ .Permalink }}">{{.Title}}</a>
 				{{ end }}{{ end }}
@@ -37,8 +35,7 @@
 						d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
 						clip-rule="evenodd" />
 				</svg>
-				<span class="mr-1">Updated </span><time datetime="{{.Lastmod}}">{{ safeHTML ( .Lastmod.Format "2
-					January, 2006" )}}</time>
+				<span class="mr-1">Updated </span><time datetime="{{.Lastmod}}">{{ safeHTML (.Lastmod.Format "2 January, 2006" )}}</time>
 			</div>
 		</div>
 	</div>

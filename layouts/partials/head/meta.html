@@ -6,12 +6,15 @@
 <meta property="og:site_name" content="{{ .Site.Params.sitename }}">
 <meta name="twitter:card" content="summary_large_image">
 {{- $params := .Scratch.Get "params" -}}
-<meta name="description" content="{{ if eq .Kind " taxonomy" }}{{ .Title }} list of all pages{{else}}{{ with
-    .Params.description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{end}}">
-<meta property="og:description" content="{{ if eq .Kind " taxonomy" }}{{ .Title }} list of all pages{{else}}{{ with
-    .Params.description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{end}}">
-<meta name="twitter:description" content="{{ if eq .Kind " taxonomy" }}{{ .Title }} list of all pages{{else}}{{ with
-    .Params.description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{end}}">
+{{ if eq .Kind "taxonomy" }}
+<meta name="description" content="{{ .Title }}">
+<meta name="og:description" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Title }}">
+{{else}}
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="og:description" content="{{ .Site.Params.description }}">
+<meta name="twitter:description" content="{{ .Site.Params.description }}">
+{{end}}
 <meta name="apple-mobile-web-app-title" content="{{ .Site.Params.app.title | default .Site.Title }}">
 <meta name="url" content="{{ .Permalink }}">
 <meta name="twitter:url" content="{{ .Permalink }}">

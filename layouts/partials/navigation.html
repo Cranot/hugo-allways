@@ -19,8 +19,7 @@
 							<li><span class="block mb-4 font-semibold text-white">Programming Languages</span></li>
 							{{ range .Children }}
 							<li>{{ .Pre }}<a href="{{ .URL }}" title="All ways to learn {{.Name}} Programming"
-									class="block p-3 text-gray-100 hover:bg-blue-500 hover:text-white">{{ .Name }}</a>{{
-								.Post }}</li>
+									class="block p-3 text-gray-100 hover:bg-blue-500 hover:text-white">{{ .Name }}</a>{{ .Post }}</li>
 							{{ end }}
 						</ul>
 					</div>
@@ -28,8 +27,7 @@
 			</li>
 			{{ else }}
 			<li class="">{{ .Pre }}<a href="{{ .URL }}" title="{{.Name}}"
-					class="relative block px-2 py-6 text-sm font-semibold lg:p-6 lg:text-base">{{ .Name }}</a>{{ .Post
-				}}</li>
+					class="relative block px-2 py-6 text-sm font-semibold lg:p-6 lg:text-base">{{ .Name }}</a>{{ .Post }}</li>
 			{{ end }}
 			{{ end }}
 		</ul>
