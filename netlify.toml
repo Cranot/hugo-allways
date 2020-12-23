@@ -20,7 +20,7 @@ HUGO_VERSION = "0.75.1"
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self' 'unsafe-eval' 'unsafe-inline' pagead2.googlesyndication.com s7.addthis.com"
+    Content-Security-Policy = "script-src 'self' pagead2.googlesyndication.com s7.addthis.com"
 
 [[headers]]
 for = "/*.jpg"
