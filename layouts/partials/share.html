@@ -12,7 +12,7 @@
 
     <!-- Sharingbutton Twitter -->
     <a class="bg-blue-500 share-button-a"
-      href="https://twitter.com/intent/tweet/?text={{ .Title | urlize}}&amp;url={{ .Permalink }}" target="_blank"
+      href="https://twitter.com/intent/tweet/?text={{ .Title | safeHTML }}&amp;url={{ .Permalink }}" target="_blank"
       rel="noopener" aria-label="" title="Twitter Share button">
       <svg class="share-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path
