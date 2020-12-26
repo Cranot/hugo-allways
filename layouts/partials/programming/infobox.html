@@ -18,7 +18,7 @@
 			</dd>
 		</div>
 		<!-- links -->
-		{{- partial "programming/main-links.html" . -}}
+		{{- partial "programming/official-links.html" . -}}
 
 		{{ range where (where .Site.Pages ".Params.programminglanguage" true) ".Params.name" .Params.name }}
 		{{with .Params.gitrank}}
