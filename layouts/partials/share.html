@@ -16,7 +16,7 @@
 
     <!-- Sharingbutton Twitter -->
     <a class="resp-sharing-button__link"
-      href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url={{ .Permalink }}"
+      href="https://twitter.com/intent/tweet/?text={{ .Title | urlize}}&amp;url={{ .Permalink }}"
       target="_blank" rel="noopener" aria-label="">
       <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -30,7 +30,7 @@
 
     <!-- Sharingbutton Tumblr -->
     <a class="resp-sharing-button__link"
-      href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;caption=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;content=http%3A%2F%2Fsharingbuttons.io&amp;canonicalUrl={{ .Permalink }}"
+      href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title={{ .Title }}&amp;caption={{ .Title | urlize}}&amp;content={{ .Permalink }}&amp;canonicalUrl={{ .Permalink }}"
       target="_blank" rel="noopener" aria-label="">
       <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -44,7 +44,7 @@
 
     <!-- Sharingbutton E-Mail -->
     <a class="resp-sharing-button__link"
-      href="mailto:?subject=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;body={{ .Permalink }}"
+      href="mailto:?subject={{ .Title }}&amp;body={{ .Permalink }}"
       target="_self" rel="noopener" aria-label="">
       <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -58,7 +58,7 @@
 
     <!-- Sharingbutton Pinterest -->
     <a class="resp-sharing-button__link"
-      href="https://pinterest.com/pin/create/button/?url=http%3A%2F%2Fsharingbuttons.io&amp;media={{ .Permalink }}&amp;description=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking."
+      href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ .Permalink }}&amp;description={{ .Title | urlize}}"
       target="_blank" rel="noopener" aria-label="">
       <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -72,7 +72,7 @@
 
     <!-- Sharingbutton LinkedIn -->
     <a class="resp-sharing-button__link"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;summary=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;source=http%3A%2F%2Fsharingbuttons.io"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title | urlize}}&amp;summary={{ .Title | urlize}}&amp;source={{ .Permalink }}"
       target="_blank" rel="noopener" aria-label="">
       <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -86,7 +86,7 @@
 
     <!-- Sharingbutton Reddit -->
     <a class="resp-sharing-button__link"
-      href="https://reddit.com/submit/?url={{ .Permalink }}&amp;resubmit=true&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking."
+      href="https://reddit.com/submit/?url={{ .Permalink }}&amp;resubmit=true&amp;title={{ .Title | urlize}}"
       target="_blank" rel="noopener" aria-label="">
       <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
