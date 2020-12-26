@@ -13,8 +13,7 @@
 			<dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
 				{{ range where (where .Site.Pages ".Params.programminglanguage" true) ".Params.name" .Params.name }}
 				{{ range .Params.programming }}<a
-					class="inline-block p-1 mt-2 text-xs text-gray-700 bg-transparent border border-gray-500 rounded hover:bg-gray-500 hover:text-white hover:border-transparent"
-					title="{{.}} Tag" href="/programming/{{ . | urlize}}">{{ . | title }}</a> {{ end }}
+					class="inline-block p-1 mt-2 text-xs text-gray-700 bg-transparent border border-gray-500 rounded hover:bg-gray-500 hover:text-white hover:border-transparent" title="{{.}} Tag" href="/programming/{{ . | urlize}}">{{ . | title }}</a> {{ end }}
 				{{ end }}
 			</dd>
 		</div>
