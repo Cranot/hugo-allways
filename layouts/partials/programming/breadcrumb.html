@@ -1,8 +1,8 @@
 <div class="lg:flex lg:items-center lg:justify-between">
 	<div class="flex-1 min-w-0">
-		<div class="flex flex-col mt-1 sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
+		<div class="flex flex-col border-t border-b border-gray-100 sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
 			<!-- nav links -->
-			<div class="flex items-center mt-2 text-sm text-gray-500">
+			<div class="flex items-center p-2 text-sm text-gray-500">
 				<svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 					<path fill-rule="evenodd"
@@ -13,7 +13,7 @@
 				<a class="p-1 text-sm font-semibold underline hover:no-underline text-grey-900" href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . | title }}</a>
 				{{ end }}
 			</div>
-			<div class="flex items-center mt-2 text-sm text-gray-500">
+			<div class="flex items-center text-sm text-gray-500">
 				<svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 					<path fill-rule="evenodd"
@@ -28,7 +28,7 @@
 					href="{{ .Permalink }}">{{.Title}}</a>
 				{{ end }}{{ end }}
 			</div>
-			<div class="flex items-center mt-2 text-sm text-gray-500">
+			<div class="flex items-center text-sm text-gray-500">
 				<svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 					<path fill-rule="evenodd"

@@ -7,7 +7,7 @@ url: "/programming-languages/all-ways-to-learn-javascript/"
 type: skills
 layout: programming
 name: "Javascript"
-description: "Hack the learning process and discover the ways to learn JavaScript programming easier with their pros and cons suggested for any level from beginner to professional."
+description: "Hack the learning process and discover the ways to learn JavaScript programming efficiently by knowing for each way their strong and weak points, along with resources or links on each one to broaden your programming knowledge."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-javascript.png"
 authors: ["All Ways to Study Team"]
 ---

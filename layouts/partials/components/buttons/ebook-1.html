@@ -3,5 +3,4 @@
 {{ range where (where .Site.Pages ".Params.type" "ebooks") ".Params.name" .Params.name }}
 	<a class="hover:underline" href="{{ .Params.url }}" title="{{ .Params.name }} ebooks">{{ .Params.name }} Ebooks</a>
 {{ end }}
-
 </div>
