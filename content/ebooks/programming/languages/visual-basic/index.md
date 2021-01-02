@@ -10,7 +10,7 @@ name: "Visual Basic"
 officialweb: "https://docs.microsoft.com/en-us/dotnet/visual-basic/"
 wikilink: "https://en.wikipedia.org/wiki/Visual_Basic_.NET"
 developers: ["Microsoft"]
-description: "Ebooks are a great way to start learning Visual Basic .NET programming, download and read your ebooks for Visual Basic .NET on any device, free & paid versions are both available."
+description: "Ebooks are one of the best ways to start learning Visual Basic .NET programming, being eco-friendly, widely available, rich in content, mobile and in cases free played an important role to be in our top suggestions."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-visual-basic.png"
 authors: ["All Ways to Study Team"]
 

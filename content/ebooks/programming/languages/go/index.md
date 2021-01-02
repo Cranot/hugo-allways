@@ -10,7 +10,7 @@ layout: programming-ebooks
 name: "Go"
 officialweb: "https://golang.org/"
 wikilink: "https://en.wikipedia.org/wiki/Go_(programming_language)"
-description: "Ebooks are a great way to start learning Go programming, download and read your ebooks for Go on any device, free & paid versions are both available."
+description: "Ebooks are one of the best ways to start learning Go programming, being eco-friendly, widely available, rich in content, mobile and in cases free played an important role to be in our top suggestions."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-go.png"
 authors: ["All Ways to Study Team"]
 

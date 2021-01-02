@@ -11,7 +11,7 @@ name: "Shell"
 officialweb: "https://www.shellscript.sh/"
 wikilink: "https://en.wikipedia.org/wiki/Shell_script"
 gitrank: 8
-description: "Ebooks are a great way to start learning Shell programming, download and read your ebooks for Shell on any device, free & paid versions are both available."
+description: "Ebooks are one of the best ways to start learning Shell programming, being eco-friendly, widely available, rich in content, mobile and in cases free played an important role to be in our top suggestions."
 ogimage: "/pathtoimage/image.jpg"
 authors: ["All Ways to Study Team"]
 

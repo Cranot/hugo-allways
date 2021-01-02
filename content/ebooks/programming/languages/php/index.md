@@ -11,7 +11,7 @@ officialweb: "https://www.php.net/"
 wikilink: "https://en.wikipedia.org/wiki/PHP"
 developers: ["Zend"]
 gitrank: 4
-description: "Ebooks are a great way to start learning PHP programming, download and read your ebooks for PHP on any device, free & paid versions are both available."
+description: "Ebooks are one of the best ways to start learning PHP programming, being eco-friendly, widely available, rich in content, mobile and in cases free played an important role to be in our top suggestions."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-php.png"
 authors: ["All Ways to Study Team"]
 

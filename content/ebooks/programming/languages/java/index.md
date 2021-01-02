@@ -11,7 +11,7 @@ officialweb: "https://www.oracle.com/java/"
 wikilink: "https://en.wikipedia.org/wiki/Java_(programming_language)"
 developers: ["Sun Microsystems"]
 gitrank: 3
-description: "Ebooks are a great way to start learning Java programming, download and read your ebooks for Java on any device, free & paid versions are both available."
+description: "Ebooks are one of the best ways to start learning Java programming, being eco-friendly, widely available, rich in content, mobile and in cases free played an important role to be in our top suggestions."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-java.png"
 authors: ["All Ways to Study Team"]
 

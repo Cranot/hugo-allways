@@ -10,7 +10,7 @@ name: "TypeScript"
 officialweb: "https://www.typescriptlang.org/"
 wikilink: "https://en.wikipedia.org/wiki/TypeScript"
 gitrank: 7
-description: "Ebooks are a great way to start learning TypeScript programming, download and read your ebooks for TypeScript on any device, free & paid versions are both available."
+description: "Ebooks are one of the best ways to start learning TypeScript programming, being eco-friendly, widely available, rich in content, mobile and in cases free played an important role to be in our top suggestions."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-typescript.png"
 authors: ["All Ways to Study Team"]
 
