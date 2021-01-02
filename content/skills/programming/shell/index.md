@@ -7,7 +7,7 @@ url: "/programming-languages/all-ways-to-learn-shell/"
 type: skills
 layout: programming
 name: "Shell"
-description: "Hack the learning process and discover the ways to learn Shell programming efficiently by knowing for each way their strong and weak points, along with resources or links on each one to broaden your programming knowledge."
+description: "Hack the learning process and discover the ways to learn Shell programming efficiently by knowing for each way their strong and weak points, along with resources or links for each one to broaden your programming knowledge."
 ogimage: "/pathtoimage/image.jpg"
 authors: ["All Ways to Study Team"]
 ---

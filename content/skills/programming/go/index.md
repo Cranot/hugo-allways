@@ -7,7 +7,7 @@ url: "/programming-languages/all-ways-to-learn-go/"
 type: skills
 layout: programming
 name: "Go"
-description: "Hack the learning process and discover the ways to learn Go programming efficiently by knowing for each way their strong and weak points, along with resources or links on each one to broaden your programming knowledge."
+description: "Hack the learning process and discover the ways to learn Go programming efficiently by knowing for each way their strong and weak points, along with resources or links for each one to broaden your programming knowledge."
 ogimage: "/img/programming/ways-covers/13-way-to-learn-go.png"
 authors: ["All Ways to Study Team"]
 ---
