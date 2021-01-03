@@ -1,6 +1,6 @@
 <div class="lg:flex lg:items-center lg:justify-between">
 	<div class="flex-1 min-w-0">
-		<div class="flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
+		<div class="flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-4">
 			<!-- nav links -->
 			<div class="flex items-center text-sm text-gray-600">
 				<svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,7 @@
 						clip-rule="evenodd" />
 				</svg>
 				{{ range .Params.categories }}
-				<a class="p-1 text-sm font-semibold underline hover:no-underline text-grey-800" href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . | title }}</a>
+				<a class="p-1 m-0.5 text-sm font-semibold underline hover:no-underline text-grey-800" href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . | title }}</a>
 				{{ end }}
 			</div>
 			<div class="flex items-center text-sm text-gray-600">
@@ -24,7 +24,7 @@
 				</svg>
 
 				{{ range .Param "authors" }}{{ $name := . }}{{ $path := printf "/%s/%s" "authors" ($name | urlize) }}{{ with $.Site.GetPage $path }}
-				<a class="p-1 text-sm font-semibold underline hover:no-underline text-grey-800" title="{{.Title}}"
+				<a class="p-1 m-0.5 text-sm font-semibold underline hover:no-underline text-grey-800" title="{{.Title}}"
 					href="{{ .Permalink }}">{{.Title}}</a>
 				{{ end }}{{ end }}
 			</div>
