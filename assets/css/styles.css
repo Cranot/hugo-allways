@@ -25,7 +25,7 @@
 
 .infobox-text {@apply text-sm font-semibold text-gray-700}
 
-.share-button-a{@apply inline-block mx-px rounded-sm transition duration-100 ease-out transform hover:scale-125}
+.share-button-a{@apply inline-block mx-0.5 rounded-sm transition duration-100 ease-out transform hover:scale-125}
 
 .share-svg{@apply w-5 h-5 text-white fill-current m-1.5}
 
