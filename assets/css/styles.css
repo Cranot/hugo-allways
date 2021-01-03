@@ -5,7 +5,7 @@
 @layer components {
 
 
-.nav-li-a{ @apply block py-2 pl-1 m-1 text-gray-200 hover:bg-blue-400 hover:underline hover:font-semibold;}
+.nav-li-a{ @apply block py-2 pl-1 m-1 text-gray-200 hover:bg-blue-400 hover:underline;}
 	
 .nav-no-inner { @apply relative block px-2 py-6 text-sm font-semibold lg:p-6 lg:text-base;}
 	
